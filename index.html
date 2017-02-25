@@ -6,21 +6,54 @@
     <title>简历</title>
     <link rel="stylesheet" href="css/jquery.fullPage.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/reset.css">
     <style>
         .section {
-            text-align: center;
+            /*text-align: center;*/
             font: 50px "Microsoft Yahei";
             color: #fff;
-        }
-        .section1 {
-            background: url(images/c2.jpg) 50% top no-repeat;
-            -webkit-background-size:100% 50%;
-            background-size:100% 50%;
         }
         /*.section2 { background: url(images/2.jpg) 50%;}*/
         /*.section3 { background: url(images/3.jpg) 50%;}*/
         /*.section4 { background: url(images/4.jpg) 50%;}*/
-        
+
+
+        .section1 {
+            text-align: center;
+            background: url(images/c2.jpg) 50% top no-repeat;
+            margin:0 auto;
+            -webkit-background-size:100% 50%;
+            background-size:100% 50%;
+            position: relative;
+        }
+        .section1 .title1{
+             font-size: 30px;
+             position: relative;
+             top:200px;
+         }
+        .section1 .title2{
+            font-size: 100px;
+            position: relative;
+            top:300px;
+        }
+        .section1 .job{
+            font-size: 50px;
+            width: 100%;
+            position: absolute;
+            bottom: 10%;
+        }
+        .section1 .icon{
+            width: 400px;
+            height:400px;
+            position: absolute;
+            bottom: 40%;
+            left:50%;
+            margin-left:-200px ;
+            -webkit-border-radius:50%;
+            -moz-border-radius:50%;
+            border-radius:50%;
+
+        }
         .section2 p {
             position: relative;
             left: -120%;
@@ -65,6 +98,12 @@
                 slidesColor: ['#393F4F', '#4BBFC3', '#7BAABE', '#f90', '#ef820','#ccc','pink','orange'],
                 anchors: ['page1', 'page2', 'page3', 'page4', 'page5','page6','page7','page8'],
                 afterLoad: function(anchorLink, index) {
+                    if (index==1){
+
+
+
+
+                    }
                     if (index == 2) {
                         $('.section2').find('p').delay(500).animate({
                             left: '0'
@@ -147,9 +186,10 @@
 <body>
 
     <div class="section section1">
-        <h3>简历</h3>
-        <h4>fullPage.js — 回调函数演示</h4>
-        <p>求职意向：前端开发</p>
+        <p class="title1">简历</p>
+        <p class="title2">RESUME</p>
+        <p class="job">求职意向：前端开发</p>
+        <img src="images/3.jpg" alt="" class="icon">
     </div>
 
 
