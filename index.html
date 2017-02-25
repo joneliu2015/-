@@ -13,9 +13,9 @@
             color: #fff;
         }
         .section1 {
-            background: url(images/c2.jpg) 50% no-repeat;
-            -webkit-background-size:100% 100%;
-            background-size:100% 100%;
+            background: url(images/c2.jpg) 50% top no-repeat;
+            -webkit-background-size:100% 50%;
+            background-size:100% 50%;
         }
         /*.section2 { background: url(images/2.jpg) 50%;}*/
         /*.section3 { background: url(images/3.jpg) 50%;}*/
@@ -62,7 +62,7 @@
     <script>
         $(document).ready(function() {
             $.fn.fullpage({
-                slidesColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', '#f90', '#ef820','#ccc','pink','orange'],
+                slidesColor: ['#393F4F', '#4BBFC3', '#7BAABE', '#f90', '#ef820','#ccc','pink','orange'],
                 anchors: ['page1', 'page2', 'page3', 'page4', 'page5','page6','page7','page8'],
                 afterLoad: function(anchorLink, index) {
                     if (index == 2) {
@@ -147,8 +147,9 @@
 <body>
 
     <div class="section section1">
-        <h3>第一屏</h3>
-        <p>fullPage.js — 回调函数演示</p>
+        <h3>简历</h3>
+        <h4>fullPage.js — 回调函数演示</h4>
+        <p>求职意向：前端开发</p>
     </div>
 
 
