@@ -16,103 +16,431 @@
         /*.section2 { background: url(images/2.jpg) 50%;}*/
         /*.section3 { background: url(images/3.jpg) 50%;}*/
         /*.section4 { background: url(images/4.jpg) 50%;}*/
-
-
+        
         .section1 {
             text-align: center;
             background: url(images/c2.jpg) 50% top no-repeat;
-            margin:0 auto;
-            -webkit-background-size:100% 50%;
-            background-size:100% 50%;
+            margin: 0 auto;
+            -webkit-background-size: 100% 50%;
+            background-size: 100% 50%;
             position: relative;
         }
-        .section1 .title1{
-             font-size: 30px;
-             position: relative;
-             top:200px;
-         }
-        .section1 .title2{
-            font-size: 100px;
+        
+        .section1 .title1 {
+            font: normal 100px 'microsoftyahei';
             position: relative;
-            top:300px;
+            top: -120%;
         }
-        .section1 .job{
+        
+        .section1 .title2 {
+            width: 120%;
+            height: 20%;
+            position: relative;
+            top: 200px;
+        }
+        
+        .section1 .job {
             font-size: 50px;
             width: 100%;
             position: absolute;
-            bottom: 10%;
+            bottom: -10%;
         }
-        .section1 .icon{
+        
+        .section1 .icon {
             width: 400px;
-            height:400px;
+            height: 400px;
             position: absolute;
             bottom: 40%;
-            left:50%;
-            margin-left:-200px ;
-            -webkit-border-radius:50%;
-            -moz-border-radius:50%;
-            border-radius:50%;
-
-        }
-        .section2 p {
-            position: relative;
-            left: -120%;
+            left: 50%;
+            margin-left: -200px;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            border-radius: 50%;
+            display: none
         }
         
-        .section3 p {
-            position: relative;
-            left: -120%;
-        }
-
-        .section4 p {
-            position: relative;
-            left: -120%;
-        }
-
-        .section5 p {
-            position: relative;
-            left: -120%;
-        }
-
-        .section6 p {
-            position: relative;
-            bottom: -120%;
-        }
-
-        .section7 p {
-            position: relative;
-            bottom: -120%;
+        .section1 .shine {
+            width: 100%;
+            height: 400px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: none
         }
         
-        .section8 p {
+        .section1 .godown {
+            width: 50px;
+            height: 50px;
+            position: fixed;
+            bottom: 5%;
+            left: 50%;
+            margin-left: -25px;
+            z-index: 999;
+        }
+        
+        .section1 .name {
+            color: wheat;
+            width: 100%;
+            height: 100px;
+            line-height: 100px;
+            position: absolute;
+            bottom: 20%;
+            text-align: center;
+            background-color: #82757d;
+        }
+        /*第一页end*/
+        /*第二页start*/
+        
+        .section2 .title1 {
+            position: relative;
+            left: -120%;
+            display: inline-block;
+            font-size: 35px;
+        }
+        
+        .section2 .title2 {
+            position: relative;
+            top: -120%;
+            right: -20%;
+            display: inline-block;
+        }
+        
+        .section2 .kuang {
+            position: relative;
+            top: -120%;
+            right: -10%;
+            display: inline-block;
+        }
+        
+        .section2 .nameIcon {
+            position: absolute;
+            left: -120%;
+            top: 30%;
+            display: block;
+        }
+        
+        .section2 .xueliIcon {
+            position: absolute;
+            left: -120%;
+            top: 40%;
+            display: block;
+        }
+        
+        .section2 .adressIcon {
+            width: 92px;
+            height: 80px;
+            position: absolute;
+            left: -120%;
+            top: 50%;
+            display: block;
+        }
+        
+        .section2 .postIcon {
+            width: 97px;
+            height: 80px;
+            position: absolute;
+            left: -120%;
+            top: 60%;
+            display: block;
+        }
+        
+        .section2 .telIcon {
+            position: absolute;
+            left: -120%;
+            top: 70%;
+            display: block;
+        }
+        
+        .section2 .name {
+            position: absolute;
+            left: -120%;
+            top: 30%;
+            font-size: 45px;
+        }
+        
+        .section2 .xueli {
+            position: absolute;
+            left: -120%;
+            top: 40%;
+            font-size: 45px;
+        }
+        
+        .section2 .adress {
+            position: absolute;
+            left: -120%;
+            top: 50%;
+            font-size: 45px;
+        }
+        
+        .section2 .post {
+            position: absolute;
+            left: -120%;
+            top: 60%;
+            font-size: 45px;
+        }
+        
+        .section2 .tel {
+            position: absolute;
+            left: -120%;
+            top: 70%;
+            font-size: 45px;
+        }
+        /*第二页end*/
+        /*第三页start*/
+        
+        .section3 .title1 {
+            position: relative;
+            left: -120%;
+            display: inline-block;
+            font-size: 35px;
+        }
+        
+        .section3 .title2 {
+            position: relative;
+            top: -120%;
+            right: -20%;
+            display: inline-block;
+        }
+        
+        .section3 .kuang {
+            position: relative;
+            top: -120%;
+            right: -10%;
+            display: inline-block;
+        }
+        
+        .section3 .time1 {
+            position: absolute;
+            left: -120%;
+            top: 30%;
+            color: #29b0cd;
+        }
+        
+        .section3 .work1 {
+            position: absolute;
+            left: 10%;
+            top: 40%;
+            font-size: 45px;
             display: none;
         }
+        
+        .section3 .time2 {
+            position: absolute;
+            left: -120%;
+            top: 60%;
+            color: #29b0cd;
+        }
+        
+        .section3 .work2 {
+            position: absolute;
+            left: 10%;
+            top: 70%;
+            font-size: 45px;
+            display: none;
+        }
+        /*第三页end*/
+        /*第四页start*/
+        
+        .section4>p {
+            margin-top: 5%;
+        }
+        
+        .section4 {
+            text-align: center
+        }
+        
+        .section4 .title a img {
+            width: 70%;
+            height: 70%;
+            padding-top: 20%;
+            margin: 0 auto;
+        }
+        /*第四页end*/
+        
+        .section5 {
+            text-align: center;
+            position: relative;
+        }
+        
+        .section5 img {
+            position: absolute;
+            top: 7%;
+            left: 40%;
+            display: none;
+        }
+        
+        .section5 .wait {
+            position: relative;
+            top: -120%;
+        }
+        
+        .section5 .tel {
+            position: absolute;
+            text-decoration: none;
+            bottom: 50%;
+            left: 25%;
+            color: #59b5e6;
+            display: none;
+        }
+        
+        .section5 a:hover {
+            text-decoration: none;
+            color: #59b5e6;
+        }
+        
+        .section5 .say {
+            position: relative;
+            text-align: center;
+            bottom: -120%;
+            color: #d5d5d5;
+            font-size: 45px;
+        }
     </style>
-    <script src="js/jquery.js"></script>
+    <script src="js/jquery-3.0.0.min.js"></script>
     <script src="js/jquery-ui-1.10.3.min.js"></script>
     <script src="js/jquery.fullPage.min.js"></script>
     <script src="js/swipe.js"></script>
+
     <script>
         $(document).ready(function() {
             $.fn.fullpage({
-                slidesColor: ['#393F4F', '#4BBFC3', '#7BAABE', '#f90', '#ef820','#ccc','pink','orange'],
-                anchors: ['page1', 'page2', 'page3', 'page4', 'page5','page6','page7','page8'],
+                slidesColor: ['#1E2339', '#1E2339', '#1E2339', '#1E2339', '#1E2339'],
+                anchors: ['page1', 'page2', 'page3', 'page4', 'page5'],
+
+                afterRender: function(index) {
+                    $('.section1').find('.title1').delay(500).animate({
+
+                        top: '250px'
+                    }, 1500, 'easeOutExpo');
+
+                    $('.section1').find('.title2').delay(0).animate({
+                        width: '80%',
+                        height: '8%'
+                    }, 1500, 'easeOutExpo');
+
+                    $('.section1').find('.icon').delay(0).fadeIn(2000);
+                    $('.section1').find('.shine').delay(500).fadeIn(1500);
+
+                    $('.section1').find('.job').delay(500).animate({
+                        bottom: '10%',
+                    }, 1500, 'easeOutExpo');
+
+                    var godown = $('.section1').find('.godown')
+
+                    function showTime() {
+                        setInterval(function() {
+                            if (godown.fadeOut(500)) {
+                                godown.fadeIn(500);
+                            }
+                        }, 2000)
+                    };
+                    showTime();
+
+                },
+
                 afterLoad: function(anchorLink, index) {
-                    if (index==1){
 
 
-
-
-                    }
-                    if (index == 2) {
-                        $('.section2').find('p').delay(500).animate({
-                            left: '0'
+                    if (index == 1) {
+                        $('.section1').find('.title1').delay(500).animate({
+                            top: '250px'
                         }, 1500, 'easeOutExpo');
+
+                        $('.section1').find('.title2').delay(500).animate({
+
+                            width: '80%',
+                            height: '8%'
+                        }, 1500, 'easeOutExpo');
+
+                        $('.section1').find('.icon').delay(0).fadeIn(2000);
+                        $('.section1').find('.shine').delay(500).fadeIn(1500);
+                        $('.section1').find('.job').delay(500).animate({
+                            bottom: '10%'
+                        }, 1500, 'easeOutExpo');
+                    }
+
+                    if (index == 2) {
+
+                        $('.section2').find('.title1').delay(500).animate({
+                            left: '5%'
+                        }, 500, 'easeOutExpo');
+                        $('.section2').find('.title2').delay(500).animate({
+                            top: '0',
+                            right: '-20%',
+                        }, 500, 'easeOutExpo');
+                        $('.section2').find('.kuang').delay(500).animate({
+                            top: '5%',
+                            right: '-5%',
+                        }, 1000, 'easeOutExpo');
+                        $('.section2').find('.nameIcon').delay(500).animate({
+                            top: '30%',
+                            left: '15%',
+                        }, 1000, 'easeOutExpo');
+                        $('.section2').find('.name').delay(500).animate({
+                            top: '31%',
+                            left: '35%',
+                        }, 1500, 'easeOutExpo');
+                        $('.section2').find('.xueliIcon').delay(500).animate({
+                            top: '40%',
+                            left: '15%',
+                        }, 1000, 'easeOutExpo');
+                        $('.section2').find('.xueli').delay(500).animate({
+                            top: '40%',
+                            left: '35%',
+                        }, 1500, 'easeOutExpo');
+                        $('.section2').find('.adressIcon').delay(500).animate({
+                            top: '50%',
+                            left: '15%',
+                        }, 1000, 'easeOutExpo');
+                        $('.section2').find('.adress').delay(500).animate({
+                            top: '50%',
+                            left: '35%',
+                        }, 1500, 'easeOutExpo');
+                        $('.section2').find('.postIcon').delay(500).animate({
+                            top: '60%',
+                            left: '15%',
+                        }, 1000, 'easeOutExpo');
+                        $('.section2').find('.post').delay(500).animate({
+                            top: '60%',
+                            left: '35%',
+                        }, 1500, 'easeOutExpo');
+                        $('.section2').find('.telIcon').delay(500).animate({
+                            top: '70%',
+                            left: '15%',
+                        }, 1000, 'easeOutExpo');
+                        $('.section2').find('.tel').delay(500).animate({
+                            top: '70%',
+                            left: '35%',
+                        }, 1500, 'easeOutExpo');
+
+
+
                     }
                     if (index == 3) {
-                        $('.section3').find('p').delay(500).animate({
-                            left: '0'
+                        $('.section3').find('.title1').delay(500).animate({
+                            left: '5%'
                         }, 1500, 'easeOutExpo');
+                        $('.section3').find('.title2').delay(500).animate({
+                            top: '0',
+                            right: '-20%',
+                        }, 1500, 'easeOutExpo');
+                        $('.section3').find('.kuang').delay(500).animate({
+                            top: '5%',
+                            right: '-5%',
+                        }, 1000, 'easeOutExpo');
+                        $('.section3').find('.time1').delay(500).animate({
+                            left: '5%'
+                        }, 1500, 'easeOutExpo');
+
+                        $('.section3').find('.work1').delay(500).fadeIn(2500);
+
+                        $('.section3').find('.time2').delay(500).animate({
+                            left: '5%'
+                        }, 1500, 'easeOutExpo');
+                        $('.section3').find('.work2').delay(500).fadeIn(2500);
+
+
+
                     }
 
                     if (index == 4) {
@@ -122,36 +450,117 @@
                     }
 
                     if (index == 5) {
-                        $('.section5').find('p').delay(500).animate({
-                            left: '0'
+                        $('.section5').find('img').delay(500).fadeIn(1000)
+                        $('.section5').find('.wait').delay(500).animate({
+                            top: '10%',
                         }, 1500, 'easeOutExpo');
+                        $('.section5').find('.tel').delay(500).fadeIn(2000)
+                        $('.section5').find('.say').delay(500).animate({
+                            bottom: '-70%',
+                        }, 1500, 'easeOutExpo');
+
+
                     }
 
-                    if (index == 6) {
-                        $('.section6').find('p').delay(500).animate({
-                            bottom: '0'
-                        }, 1500, 'easeOutExpo');
-                    }
 
-                    if (index == 7) {
-                        $('.section7').find('p').delay(500).animate({
-                            bottom: '0'
-                        }, 1500, 'easeOutExpo');
-                    }
-                    if (index == 8) {
-                        $('.section8').find('p').fadeIn(2000);
-                    }
                 },
                 onLeave: function(index, direction) {
-                    if (index == '2') {
-                        $('.section2').find('p').delay(500).animate({
-                            left: '-120%'
+                    if (index == '1') {
+                        $('.section1').find('.title1').delay(500).animate({
+                            top: '-120%'
+                        }, 1500, 'easeOutExpo');
+
+                        $('.section1').find('.title2').delay(500).animate({
+                            width: '120 %',
+                            height: '20 %',
+                        }, 1500, 'easeOutExpo');
+                        $('.section1').find('.icon').delay(0).fadeOut(1000);
+                        $('.section1').find('.shine').delay(500).fadeOut(1500);
+                        $('.section1').find('.job').delay(500).animate({
+                            bottom: '-10%'
                         }, 1500, 'easeOutExpo');
                     }
-                    if (index == '3') {
-                        $('.section3').find('p').delay(500).animate({
+                    if (index == '2') {
+
+
+
+                        $('.section2').find('.title1').delay(500).animate({
                             left: '-120%'
-                        }, 1500, 'easeOutExpo');
+                        }, 1000, 'easeOutExpo');
+                        $('.section2').find('.title2').delay(500).animate({
+                            top: '-320',
+                            right: '-20%',
+                        }, 1000, 'easeOutExpo');
+                        $('.section2').find('.kuang').delay(500).animate({
+                            top: '-120%',
+                            right: '-10%',
+                        }, 1000, 'easeOutExpo');
+                        $('.section2').find('.nameIcon').delay(500).animate({
+                                top: '30%',
+                                left: '-120%',
+                            }, 1000,
+                            'easeOutExpo');
+                        $('.section2').find('.name').delay(500).animate({
+                            top: '31%',
+                            left: '-120%',
+                        }, 1000, 'easeOutExpo');
+                        $('.section2').find('.xueliIcon').delay(500).animate({
+                            top: '40%',
+                            left: '-120%',
+                        }, 1000, 'easeOutExpo');
+                        $('.section2').find('.xueli').delay(500).animate({
+                            top: '40%',
+                            left: '-120%',
+                        }, 1000, 'easeOutExpo');
+                        $('.section2').find('.adressIcon').delay(500).animate({
+                            top: '50%',
+                            left: '-120%',
+                        }, 1000, 'easeOutExpo');
+                        $('.section2').find('.adress').delay(500).animate({
+                            top: '50%',
+                            left: '-120%',
+                        }, 1000, 'easeOutExpo');
+                        $('.section2').find('.postIcon').delay(500).animate({
+                            top: '60%',
+                            left: '-120%',
+                        }, 1000, 'easeOutExpo');
+                        $('.section2').find('.post').delay(500).animate({
+                            top: '60%',
+                            left: '-120%',
+                        }, 1000, 'easeOutExpo');
+                        $('.section2').find('.telIcon').delay(500).animate({
+                            top: '70%',
+                            left: '-120%',
+                        }, 1000, 'easeOutExpo');
+                        $('.section2').find('.tel').delay(500).animate({
+                            top: '70%',
+                            left: '-120%',
+                        }, 1000, 'easeOutExpo');
+
+
+                    }
+                    if (index == '3') {
+                        $('.section3').find('.title1').delay(500).animate({
+                            left: '-120%'
+                        }, 1000, 'easeOutExpo');
+                        $('.section3').find('.title2').delay(500).animate({
+                            top: '-320',
+                            right: '-20%',
+                        }, 1000, 'easeOutExpo');
+                        $('.section3').find('.kuang').delay(500).animate({
+                            top: '-120%',
+                            right: '-10%',
+                        }, 1000, 'easeOutExpo');
+                        $('.section3').find('.time1').delay(500).animate({
+                            left: '-120%'
+                        }, 1000, 'easeOutExpo');
+                        $('.section3').find('.work1').delay(500).fadeOut(500);
+                        $('.section3').find('.time2').delay(500).animate({
+                            left: '-120%'
+                        }, 1000, 'easeOutExpo');
+                        $('.section3').find('.work2').delay(500).fadeOut(500);
+
+
                     }
                     if (index == '4') {
                         $('.section4').find('p').delay(500).animate({
@@ -159,24 +568,17 @@
                         }, 1500, 'easeOutExpo');
                     }
                     if (index == '5') {
-                        $('.section5').find('p').delay(500).animate({
-                            left: '-120%'
+
+                        $('.section5').find('img').delay(500).fadeOut(500)
+                        $('.section5').find('.wait').delay(500).animate({
+                            top: '-120%',
                         }, 1500, 'easeOutExpo');
-                    }
-                    if (index == '6') {
-                        $('.section6').find('p').delay(500).animate({
-                            bottom: '-120%'
-                        }, 1500, 'easeOutExpo');
+                        $('.section5').find('.tel').delay(500).fadeOut(500)
+                        $('.section5').find('.say').delay(500).animate({
+                            bottom: '-120%',
+                        }, 500, 'easeOutExpo');
                     }
 
-                    if (index == '7') {
-                        $('.section7').find('p').delay(500).animate({
-                            bottom: '-120%'
-                        }, 1500, 'easeOutExpo');
-                    }
-                    if (index == '8') {
-                        $('.section8').find('p').fadeOut(2000);
-                    }
                 }
             });
         });
@@ -184,65 +586,86 @@
 </head>
 
 <body>
-
-    <div class="section section1">
-        <p class="title1">简历</p>
-        <p class="title2">RESUME</p>
+    <div class="section section1 table">
+        <p class="title1">简 历</p>
+        <img class="title2" src="images/resumefont.png"></img>
         <p class="job">求职意向：前端开发</p>
-        <img src="images/3.jpg" alt="" class="icon">
+        <div class="name">刘 俊</div>
+        <img class="icon" src="images/3.jpg" alt="">
+        <img class="shine" src="images/shine.png" alt="">
+        <img class="godown" src="images/godown.png" alt="">
     </div>
 
 
     <div class="section section2">
-        <h3>第二屏</h3>
-        <p>滚动到第二屏后的回调函数执行的效果</p>
+        <span class="title1">Essential Information</span>
+        <span class="title2">基本</br>信息</span>
+        <img class="kuang" src="images/kuang.png" alt="">
+        <img class="nameIcon" src="images/name.png" alt="">
+        <span class="name">姓名：刘俊</span>
+        <img class="xueliIcon" src="images/xueli.png" alt="">
+        <span class="xueli">学历：本科</span>
+        <img class="adressIcon" src="images/adress.png" alt="">
+        <span class="adress">地址：西安</span>
+        <img class="postIcon" src="images/post.png" alt="">
+        <span class="post">邮箱：1028301097@qq.com</span>
+        <img class="telIcon" src="images/tel.png" alt="">
+        <span class="tel">电话：18829551320</span>
+
     </div>
 
 
     <div class="section section3">
-        <h3>第三屏</h3>
-        <p>滚动到第三屏后的回调函数执行的效果</p>
+        <span class="title1">Work Experience</span>
+        <span class="title2">工作</br>经历</span>
+        <img class="kuang" src="images/kuang.png" alt="">
+        <span class="time1">2015.10-2016.3</span>
+        <span class="work1">在上海华扬联众数字技术有限公司西安分公司参加实习工作，主要做微信端的活动推广相关的页面展示,解决移动端适配</span>
+        <span class="time2">2016.3-2017.1</span>
+        <span class="work2">就职于西安畅信移动有限公司，主要从事web网站开发，与公司产品经理和设计人员沟通,制定切实可行的实施方案,网页布局，并进行页面的美化和部分功能实现</span>
     </div>
+
+
 
     <div class="section section4">
-        <h3>第四屏</h3>
-        <p>滚动到第四屏后的回调函数执行的效果</p>
+        <p>项目展示</p>
+
+        <div class="slide title">
+            <a href="http://www.saimitech.com/">
+                <img src="images/saimi.jpg" alt="">
+            </a>
+            <p>杭州赛米环保科技官网</p>
+        </div>
+        <div class="slide title">
+            <a href="https://joneliu2015.github.io/JD_mobile/">
+                <img src="images/jingdong.jpg" alt="">
+            </a>
+            <p>仿京东手机版网页</p>
+        </div>
+        <div class="slide title">
+            <a href="http://www.cnyajian.cn/">
+                <img src="images/yinxiangzhimei.jpg" alt="">
+            </a>
+            <p>温州印象之美鞋业公司手机官网</p>
+        </div>
+
     </div>
     <div class="section section5">
-        <h3>第五屏</h3>
-
-        <div class="slide">
-            <h3>第二屏的第一屏</h3>
-        </div>
-        <div class="slide">
-            <h3>第二屏的第二屏</h3>
-        </div>
-        <div class="slide">
-            <h3>第二屏的第三屏</h3>
-        </div>
-
-        <p>滚动到第五屏后的回调函数执行的效果</p>
-    </div>
-    <div class="section section6">
-        <h3>第六屏</h3>
-        <p>滚动到第六屏后的回调函数执行的效果</p>
-    </div>
-    <div class="section section7">
-        <h3>第七屏</h3>
-        <p>滚动到第七屏后的回调函数执行的效果</p>
-    </div>
-    <div class="section section8">
-        <h3>第八屏</h3>
-        <p>滚动到第八屏后的回调函数执行的效果</p>
+        <img src="images/kuang.png" alt="">
+        <p class="wait">静候</br>佳音</p>
+        <a class="tel" href="tel:电话号码">电话：18829551320</a>
+        <p class="say">只有想不到的，没有做不到的</p>
     </div>
 
-<!--音乐播放-->
-<div id="audio_btn" class="rotate">
-    <audio loop src="music/The%20Game%20Is%20On.mp3" id="media" autoplay="autoplay"   preload=""></audio>
-</div>
+
+    <!--音乐播放-->
+    <div id="audio_btn" class="rotate">
+        <audio loop src="music/The%20Game%20Is%20On.mp3" id="media" autoplay="autoplay" preload=""></audio>
+    </div>
 
 
 </body>
+
 
 <script src="js/index.js"></script>
 
